@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block thanks %}
+    <!-- Спасибо -->
+    <section>
+        {% if name %}
+        <div class="container">
+            <div style = 'margin-top: 20%; margin-bottom: 20%; text-align: center;'><h1>{{ name }}, спасибо за заявку!</h1></div>
+        </div>
+        {% else %}
+        <div class="container">
+            <div style = 'margin-top: 35%; margin-bottom: 35%; text-align: center;'><h1>Вы не заполнили данные.</h1></div>
+        </div>
+        {% endif %}
+    </section>
+{% endblock %}
