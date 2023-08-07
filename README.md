@@ -1,12 +1,12 @@
-# Одностраничный сайт компании по предоставлению услуг.
-### Стек: 
+# One-page website for a service company.
+### Stack:
 - Django
 - SQLite
 - Jinja Temlate
 - Bootstrap
 - TelegramBotApi
-### Приложения внутри: 
-  - слайдер (доступно изменение текста, фона, фоновых картинок), 
-  - цены (пользователь может менять услуги и цены на них), 
-  - телеграм бот (данные о новой заявке с заполненной формы отправляются в телеграм),
-  - crm (кабинет пользователя: отображаются заказы и статус с комментариями к ним). 
+### Applications inside:
+- slider (changing text, background pictures is available),
+- prices (the user can change the services and prices for them),
+- telegram bot (data about a new application from the completed form is sent to telegram),
+- crm (user account: orders and status with comments to them are displayed).
