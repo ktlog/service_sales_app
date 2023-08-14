@@ -33,7 +33,7 @@ h1, h2, h3, h5, th, button {
     height: 25px;
     float: right;
     margin: 15px 80px 5px 20px;
-    background: url(./img/wa-image-color.png) no-repeat center top / cover;
+    background: url(img/wa-image-color.png) no-repeat center top / cover;
     transition: 0.5s ease-in-out;
 }
 .telegram-number {
@@ -41,7 +41,7 @@ h1, h2, h3, h5, th, button {
     height: 25px;
     float: right;
     margin: 15px 5px 5px 0;
-    background: url(./img/tg-image-color.png) no-repeat center top / cover;
+    background: url(img/tg-image-color.png) no-repeat center top / cover;
     transition: 0.5s ease-in-out;
 }
 
