@@ -1,0 +1,73 @@
+/*Heder*/
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Lato, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0;
+}
+
+h1, h2, h3, h5, th, button {
+    font-family: Montserrat, sans-serif;
+    font-style: normal;
+}
+
+.logo-top {
+    width: 100px;
+    height: 40px;
+    float: left;
+    margin: 0 0 25px 80px;
+}
+
+.phone-number {
+    width: 200px;
+    height: 40px;
+    float: right;
+    margin: 20px 0 5px 20px;
+}
+
+.whatsapp-number {
+    width: 25px;
+    height: 25px;
+    float: right;
+    margin: 15px 80px 5px 20px;
+    background: url(img/wa-image-color.png) no-repeat center top / cover;
+    transition: 0.5s ease-in-out;
+}
+.telegram-number {
+    width: 25px;
+    height: 25px;
+    float: right;
+    margin: 15px 5px 5px 0;
+    background: url(img/tg-image-color.png) no-repeat center top / cover;
+    transition: 0.5s ease-in-out;
+}
+
+.text-3 {
+    color: rgb(10, 77, 125);
+    font-size: 2em;
+    text-align: center;
+    padding-top: 7%;
+    padding-bottom: 7%;
+}
+
+.product_card {
+    margin: 10px;
+}
+
+.product_card.black {
+    color: black;
+}
+
+.table_one {
+    font-size: 1.4em;
+}
+
+.class_form {
+    /*color: #fff;*/
+    /*font-size: 2em;*/
+    text-align: center;
+    padding-bottom: 7%;
+}
