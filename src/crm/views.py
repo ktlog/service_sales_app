@@ -9,9 +9,10 @@ from telegrambot.sendmessage import send_message
 
 def index(request):
 	slider_list = CmsSlider.objects.all()
-	pc_1 = PriceCard.objects.get(pk=1)
-	pc_2 = PriceCard.objects.get(pk=2)
-	pc_3 = PriceCard.objects.get(pk=3)
+	price_cards = PriceCard.objects.all()
+	pc_1 = price_cards[0]
+	pc_2 = price_cards[1]
+	pc_3 = price_cards[2]
 	price_table = PriceTable.objects.all()
 	form = OrderForm()
 	context = {
